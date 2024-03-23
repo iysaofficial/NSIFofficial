@@ -62,7 +62,7 @@ function CompContact() {
                     </div>
                 </div>
                 <div className="mt-3">
-                    <form action="https://formspree.io/f/xdoqlzwd" method="POST" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <form action="https://formspree.io/f/xyyrdagy" method="POST" id="contactForm" data-sb-form-api-token="API_TOKEN">
                         <div class="row align-items-stretch mb-5">
                             <div class="col-md-6">
                                 {/* Name input */}

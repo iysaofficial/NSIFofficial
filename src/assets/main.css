@@ -103,6 +103,9 @@ i:before {
   color: #fff;
 }
 
+.btn .badge {
+  color: #576370 !important;
+}
 /* Akhir Tambahan */
 
 
