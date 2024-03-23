@@ -8,24 +8,12 @@ function Navigation() {
         <>
         <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <header className="header_area">
-          <nav className={`navbar navbar-expand-lg menu_one`}>
-            <div className={`container `}>
-              {/* <Link className={`navbar-brand `} to="/">
-                <img
-                  src={require("../img/home_isif.png")}
-                  alt=""
-                  style={{
-                    width: "163px",
-                  }}
-                />
-                <img
-                  src={require("../img/home_isif.png")}
-                  alt="logo"
-                  style={{
-                    width: "163px",
-                  }}
-                />
-              </Link> */}
+          <nav className="navbar navbar-expand-lg menu_one">
+            <div className="container" >
+              <Link className="navbar-brand " to="/">
+                <img src="/assets/logo/NSIF.png" alt="test"/>
+                <img src="/assets/logo/NSIF.png" alt="logo" />
+              </Link>
               <button
                 className="navbar-toggler collapsed"
                 type="button"
@@ -52,7 +40,7 @@ function Navigation() {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <ul className={`navbar-nav menu ml-auto `}>
+                <ul className="navbar-nav menu ml-auto ">
                   <li className="nav-item ">
                     <Link to="/" className="nav-link" title="home">
                       Beranda
@@ -83,7 +71,7 @@ function Navigation() {
                       </li>
                     </ul>
                   </li> */}
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       title="Winner"
                       className="nav-link"
@@ -92,19 +80,19 @@ function Navigation() {
                     >
                       Buku Panduan
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <NavLink
                       exact
                       title="Service"
                       className="nav-link"
-                      to=""
+                      to="/faq"
                     >
                       FAQ
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink title="Contact" className="nav-link" to="">
+                    <NavLink title="Contact" className="nav-link" to="/contact">
                       Kontak
                     </NavLink>
                   </li>

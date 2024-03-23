@@ -2,6 +2,7 @@ import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 import MainHero from "../components/mainhero";
 import About from "../components/about";
+import Organized from "../components/organized";
 import Category from "../components/category";
 import Process from "../components/process";
 
@@ -27,6 +28,7 @@ function Home() {
         <Navigation />
         <MainHero />
         <About />
+        <Organized />
         <Category />
         <Process />
         <Footer />
