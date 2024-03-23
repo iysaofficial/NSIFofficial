@@ -4052,8 +4052,7 @@ button:focus {
   left: 0;
   top: 0;
   z-index: -1;
-  background: url("../img/home5/shap_tecture.png") no-repeat scroll center 0 /
-    cover;
+  /* background: url("../img/home5/shap_tecture.png") no-repeat scroll center 0 / cover; */
 }
 
 /*=============== saas banner area ================*/
@@ -4079,7 +4078,7 @@ button:focus {
 
 /*============= app_banner_area css ===========*/
 .app_banner_area {
-  background: url(../img/home7/banner.png) no-repeat scroll center 100%;
+  /* background: url(../img/home7/banner.png) no-repeat scroll center 100%; */
   padding-top: 230px;
   padding-bottom: 210px;
   overflow: hidden;
@@ -4679,8 +4678,7 @@ button:focus {
 
 .new_startup_banner_area:before {
   content: "";
-  background: url("../img/new/startup_banner_bg.png") no-repeat scroll center
-    bottom;
+  /* background: url("../img/new/startup_banner_bg.png") no-repeat scroll center bottom; */
   position: absolute;
   left: 0;
   width: 100%;
@@ -4763,8 +4761,7 @@ button:focus {
   top: 0;
   left: 0;
   position: absolute;
-  background: url("../img/new/startup_shap.png") no-repeat scroll center
-    bottom/cover;
+  /* background: url("../img/new/startup_shap.png") no-repeat scroll center bottom/cover; */
   z-index: -1;
 }
 
@@ -6603,7 +6600,7 @@ button:focus {
 
 .payment_features_img:before {
   content: "";
-  background: url(../img/new/shape_bg.png) no-repeat scroll center left;
+  /* background: url(../img/new/shape_bg.png) no-repeat scroll center left; */
   position: absolute;
   left: -65px;
   top: -20px;
@@ -6755,7 +6752,7 @@ button:focus {
 }
 
 .perfect_solution_area .perfect_solution_right .bg_img {
-  background: url("../img/new/solution_01.jpg") no-repeat scroll center 0;
+  /* background: url("../img/new/solution_01.jpg") no-repeat scroll center 0; */
   position: absolute;
   left: 0;
   top: 0;
@@ -6765,9 +6762,6 @@ button:focus {
   background-size: cover;
 }
 
-.perfect_solution_area .perfect_solution_right .bg_img.bg_two {
-  background: url("../img/new/solution_02.jpg") no-repeat scroll center 0;
-}
 
 /*=========== startup_fuatures_area css ==========*/
 .startup_tab {
@@ -6879,8 +6873,7 @@ button:focus {
 .startup_tab_img:before {
   content: "";
   height: 100%;
-  background: url("../img/new/tab_shape_bg.png") no-repeat scroll center 0 /
-    contain;
+  /* background: url("../img/new/tab_shape_bg.png") no-repeat scroll center 0 / contain; */
   top: 0px;
   right: -55px;
   left: -55px;
@@ -7965,7 +7958,7 @@ button:focus {
   padding-bottom: 150px;
   position: relative;
   z-index: 2;
-  background: url("../img/home9/shape_two.png") no-repeat scroll center 0;
+  /* background: url("../img/home9/shape_two.png") no-repeat scroll center 0; */
   background-size: cover;
 }
 
@@ -7987,14 +7980,7 @@ button:focus {
   font-size: 18px;
 }
 
-.pay_icon {
-  background: url("../img/home9/icon_shape_two.png") no-repeat scroll center 0;
-  width: 110px;
-  height: 103px;
-  text-align: center;
-  line-height: 95px;
-  margin-bottom: 34px;
-}
+
 
 .payment_service_item {
   padding-right: 80px;
@@ -8032,7 +8018,7 @@ button:focus {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(../img/new/new_shape.png) no-repeat scroll left 0;
+  /* background: url(../img/new/new_shape.png) no-repeat scroll left 0; */
   z-index: -1;
   background-size: contain;
 }
@@ -8549,7 +8535,7 @@ button:focus {
   content: "";
   width: 100%;
   height: 100%;
-  background: url("../img/saas/map.png") no-repeat scroll center 0;
+  /* background: url("../img/saas/map.png") no-repeat scroll center 0; */
   position: absolute;
   top: 0;
   left: 0;
@@ -8878,7 +8864,7 @@ button:focus {
   top: 0;
   left: 0;
   position: absolute;
-  background: url("../img/home2/action_bg.png") no-repeat scroll center 0;
+  /* background: url("../img/home2/action_bg.png") no-repeat scroll center 0; */
 }
 
 .call_action_area .action_one {
@@ -9060,7 +9046,7 @@ button:focus {
   height: 100px;
   left: 0;
   z-index: -1;
-  background: url("../img/home4/action_shap.png") no-repeat scroll center top;
+  /* background: url("../img/home4/action_shap.png") no-repeat scroll center top; */
   top: 0;
   background-size: contain;
 }
@@ -9110,7 +9096,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background: url("../img/new/price_bg.png") no-repeat scroll center;
+  /* background: url("../img/new/price_bg.png") no-repeat scroll center; */
   position: absolute;
   z-index: -1;
 }
@@ -10087,7 +10073,7 @@ button:focus {
 
 .seo_fact_info:before {
   content: "";
-  background: url("../img/seo/shap.png") no-repeat scroll center center;
+  /* background: url("../img/seo/shap.png") no-repeat scroll center center; */
   position: absolute;
   left: 0;
   width: 100%;
@@ -12128,7 +12114,7 @@ button:focus {
 }
 
 .seo_subscribe_area .overlay_img {
-  background: url("../img/seo/cloud_bg.png") no-repeat scroll center 0 / cover;
+  /* background: url("../img/seo/cloud_bg.png") no-repeat scroll center 0 / cover; */
   position: absolute;
   top: 0;
   width: 100%;
@@ -12215,30 +12201,7 @@ button:focus {
       180deg,
       rgba(94, 44, 237, 0.93) 0%,
       rgba(164, 133, 253, 0.9) 100%
-    ),
-    url("../img/error_bg.png") no-repeat scroll center 100%;
-  background: -webkit-linear-gradient(
-      180deg,
-      rgba(94, 44, 237, 0.93) 0%,
-      rgba(164, 133, 253, 0.9) 100%
-    ),
-    url("../img/error_bg.png") no-repeat scroll center 100%;
-  background: -ms-linear-gradient(
-      180deg,
-      rgba(94, 44, 237, 0.93) 0%,
-      rgba(164, 133, 253, 0.9) 100%
-    ),
-    url("../img/error_bg.png") no-repeat scroll center 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  height: 100vh;
-  min-height: 650px;
+    )
 }
 
 .error_shap {
@@ -12374,7 +12337,7 @@ button:focus {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../img/new/case/parallax.png") no-repeat scroll center center;
+  /* background: url("../img/new/case/parallax.png") no-repeat scroll center center; */
   z-index: -1;
 }
 
@@ -16984,7 +16947,7 @@ input[type="text"] {
 .split_banner .contact_bg {
   position: absolute;
   top: 0;
-  background: url("../img/new/home-split/contact.png");
+  /* background: url("../img/new/home-split/contact.png"); */
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -17964,7 +17927,7 @@ input[type="text"] {
 
 .support_testimonial_info .testimonial_slider .testimonial_item:before {
   content: "";
-  background: url(../img/new-home/back_bg.png) no-repeat scroll center center;
+  /* background: url(../img/new-home/back_bg.png) no-repeat scroll center center; */
   position: absolute;
   left: 0;
   top: 0;
@@ -19367,7 +19330,7 @@ input[type="text"] {
 }
 
 .analytices_action_area_two:after {
-  background: url("../img/home-software/down_bg.png") no-repeat scroll;
+  /* background: url("../img/home-software/down_bg.png") no-repeat scroll; */
   top: -70%;
 }
 
@@ -20114,7 +20077,7 @@ footer{
 
 .footer_nine_area .footer_shap {
   position: absolute;
-  background: url("../img/home9/footer.png") no-repeat scroll center;
+  /* background: url("../img/home9/footer.png") no-repeat scroll center; */
   left: 0;
   width: 100%;
   background-size: cover;
@@ -20242,13 +20205,7 @@ footer{
   left: -15px;
 }
 
-.footer_nine_bottom .flag_selector .flag-icon.flag-icon-us {
-  background-image: url(../img/home9/flag.png);
-}
 
-.footer_nine_bottom .flag_selector .flag-icon.flag-icon-mx {
-  background-image: url(../img/home9/flag.png);
-}
 
 .footer_nine_bottom .flag_selector .dropdown-menu {
   padding: 0px;
@@ -20410,13 +20367,13 @@ footer{
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("../img/seo/footer_bg.png") no-repeat scroll center 0;
+  /* background: url("../img/seo/footer_bg.png") no-repeat scroll center 0; */
   width: 100%;
   height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("../img/seo/car.png") no-repeat center center;
+  /* background: url("../img/seo/car.png") no-repeat center center; */
   width: 70px;
   height: 50px;
   position: absolute;
@@ -20427,7 +20384,7 @@ footer{
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("../img/seo/bike.png") no-repeat center center;
+  /* background: url("../img/seo/bike.png") no-repeat center center; */
   width: 50px;
   height: 52px;
   bottom: 0;
@@ -20941,7 +20898,7 @@ footer{
   height: 560px;
   z-index: -1;
   left: 0;
-  background: url("../img/home-software/down_bg.png") no-repeat scroll;
+  /* background: url("../img/home-software/down_bg.png") no-repeat scroll; */
   bottom: 0;
   background-size: cover;
 }
@@ -21215,7 +21172,7 @@ footer{
 }
 
 .event_fact_area .seo_fact_info:before {
-  background: url("../img/home-event/dot.png") no-repeat center center;
+  /* background: url("../img/home-event/dot.png") no-repeat center center; */
 }
 
 .event_fact_area .seo_fact_info .seo_fact_item {
