@@ -18,7 +18,7 @@ function Process() {
                   target="-blink"
                   href="https://www.youtube.com/watch?v=DCw862udnZo"
                 >
-                  <i className="arrow_triangle-right"></i>
+                  <i className="arrow_triangle-right fa-3x"></i>
                 </a>
               </div>
             </div>
@@ -35,7 +35,7 @@ function Process() {
                   target="-blink"
                   href="https://www.youtube.com/watch?v=YBhdvQ1p5xQ"
                 >
-                  <i className="arrow_triangle-right"></i>
+                  <i className="arrow_triangle-right fa-3x"></i>
                 </a>
               </div>
             </div>

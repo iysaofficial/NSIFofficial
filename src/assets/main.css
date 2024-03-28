@@ -79,6 +79,21 @@ i:before {
   color: #263b5e;
   border: none;
 }
+
+.italic {
+  font-style: italic;
+}
+
+.video_content .video i{
+  border: solid .1rem #0063c1;
+  border-radius: 100px;
+  transition: ease-in-out .4s;
+}
+.video_content .video i:hover{
+  font-size: 4rem;
+  background-color: #0063c1;
+  color: #00d8e6;
+}
 /* Akhir Tambahan */
 
 

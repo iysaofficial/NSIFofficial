@@ -26,7 +26,7 @@ function Organized() {
                     </div>
                     </div>
                 </div>
-                <div className="event_sponser_item">
+                {/* <div className="event_sponser_item">
                     <div className="row">
                     <div className="col-lg-3 col-md-4">
                         <h4 className="h_head sponser_title">Didukung oleh :</h4>
@@ -41,7 +41,7 @@ function Organized() {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
                 </div>
             </div>
             </section>
