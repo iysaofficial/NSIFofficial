@@ -149,8 +149,8 @@ const FooterData = {
           },
           {
             id: 3,
-            link: "",
-            data: "",
+            url: "https://drive.google.com/file/d/1hKvIrelIvMSA3ouMYYVfDhkcLdyfUBDf/view?usp=sharing",
+            text: "Buku Panduan",
           },
         ],
       },
