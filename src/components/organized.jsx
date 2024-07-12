@@ -19,7 +19,12 @@ function Organized() {
                             </div>
                             <div className="col-lg-3 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
-                                <img src="/assets/logo/akt.png" alt="" />
+                                <img src="/assets/logo/aktuaria.png" alt="" />
+                                </a>
+                            </div>
+                            <div className="col-lg-3 col-sm-4 col-6">
+                                <a className="analytices_logo wow fadeInUp">
+                                <img src="/assets/logo/vokasi.png" alt="" />
                                 </a>
                             </div>
                         </div>
