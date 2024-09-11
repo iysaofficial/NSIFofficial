@@ -187,7 +187,7 @@ const FooterData = {
           {
             id: 3,
             url: "https://goo.gl/maps/9x18coXGCmSscKec6",
-            text: "Jl. Kemang No. 63 RT 03 RW 06 Pasir Putih, Depok, Jawa Barat 16519, Indonesia."
+            text: "Jl. Kemang RT 03 RW 06 Pasir Putih, Depok, Jawa Barat 16519, Indonesia."
           },
         ],
       },
