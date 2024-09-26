@@ -6,6 +6,7 @@ import Organized from "../components/organized";
 import Category from "../components/category";
 import Process from "../components/process";
 import BackToTop from "../components/backtotp";
+import Timevenue from "../components/timevenue";
 
 import '../assets/themify-icon/themify-icons.css';
 import '../assets/simple-line-icon/simple-line-icons.css';
@@ -30,6 +31,7 @@ function Home() {
         <MainHero />
         <About />
         <Organized />
+        <Timevenue />
         <Category />
         <Process />
         <BackToTop />
