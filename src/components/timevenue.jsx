@@ -12,7 +12,7 @@ const Timevenue = () => {
                 <a className="font-bold">
                   Lokasi:{" "}
                   <a
-                    href="https://maps.app.goo.gl/BuD4UgS1oNtWUTU66"
+                    href="https://maps.app.goo.gl/PHrqZjm1Wahsnrj69"
                     target="_blank"
                   >
                     Klik Disini
