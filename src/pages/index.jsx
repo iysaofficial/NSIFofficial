@@ -31,7 +31,6 @@ function Home() {
         <MainHero />
         <About />
         <Organized />
-        <Timevenue />
         <Category />
         <Process />
         <BackToTop />
