@@ -46,31 +46,6 @@ function Navigation() {
                       Beranda
                     </Link>
                   </li>
-                  {/* <li className="dropdown submenu nav-item">
-                    <Link
-                      to="./"
-                      title="Pages"
-                      className="dropdown-toggle nav-link"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Liputan Berita
-                    </Link>
-                    <ul role="menu" className=" dropdown-menu">
-                      <li className="nav-item">
-                        <NavLink
-                          exact
-                          title="Service Details"
-                          className="nav-link"
-                          to="/PageNewsList"
-                        >
-                          Berita
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li> */}
                   <li className="nav-item">
                     <a
                       title="Winner"
@@ -80,6 +55,84 @@ function Navigation() {
                     >
                       Buku Panduan
                     </a>
+                  </li>
+                  <li className="dropdown submenu nav-item">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Daftar Pemenang
+                    </Link>
+                    <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/file/d/1FprgaHepKiWxxrJxRXHEqeRtlpe_z_ue/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Daftar Pemenang 2024
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown submenu nav-item">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Sertifikat
+                    </Link>
+                    <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/drive/folders/1GwN1Dknrbd3xctVBswQ5NWYu9BD6qFqi?usp=drive_link"
+                          target="_blank"
+                        >
+                          Sertifikat Supervisor 2024
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown submenu nav-item">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Galeri
+                    </Link>
+                    <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/drive/folders/1p9ZRMi7TI6JzMjNCmeiBhlwIuxLqt7YC?usp=sharing"
+                          target="_blank"
+                        >
+                          Galeri 2024
+                        </NavLink>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <NavLink

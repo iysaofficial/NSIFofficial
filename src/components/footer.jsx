@@ -181,11 +181,16 @@ const FooterData = {
           },
           {
             id: 2,
+            url: "https://api.whatsapp.com/send/?phone=6288213248890&text&type=phone_number&app_absent=0",
+            text: "+62 882-1324-8890",
+          },
+          {
+            id: 3,
             url: "https://api.whatsapp.com/send/?phone=6281770914129&text&type=phone_number&app_absent=0",
             text: "+62 817-7091-4129",
           },
           {
-            id: 3,
+            id: 4,
             url: "https://goo.gl/maps/9x18coXGCmSscKec6",
             text: "Jl. Kemang RT 03 RW 06 Pasir Putih, Depok, Jawa Barat 16519, Indonesia."
           },
