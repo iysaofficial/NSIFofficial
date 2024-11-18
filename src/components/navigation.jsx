@@ -92,6 +92,32 @@ function Navigation() {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
+                      Kurasi
+                    </Link>
+                    <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/drive/folders/1WwYkepxXfmnWePsa7KqptyIGrWdA0sJQ?usp=sharing"
+                          target="_blank"
+                        >
+                          Kurasi 2024
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="dropdown submenu nav-item">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
                       Sertifikat
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
