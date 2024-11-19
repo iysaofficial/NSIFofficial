@@ -13,7 +13,7 @@ function BackToTop() {
     });
 
     btnBackToTop.addEventListener('click', () => {
-      document.body.scrollTop = 0; // Untuk Safari
+      document.body.scrollTop = 0; 
       document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE, dan Opera
     });
   }, []);
