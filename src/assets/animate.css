@@ -37,11 +37,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 }
 
-@media (max-width: 991px) {
-    .rs-about iframe {
-        height: 400px !important;
-  }
-  
 @keyframes bounce {
     0%, 100%, 20%, 50%, 80% {
         -webkit-transform: translateY(0);
