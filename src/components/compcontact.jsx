@@ -28,7 +28,7 @@ function CompContact() {
                         {/* whatsapp */}
                         <div className="col-lg-6 intregration_item whatsapp text-center">
                         <a
-                            href="https://wa.me/6281770914129"
+                            href="https://wa.me/6288213248890"
                             className="intregration_icon"
                             target="-blank"
                         >

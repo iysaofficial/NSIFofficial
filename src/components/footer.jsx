@@ -88,7 +88,7 @@ function Footer() {
                           {widget.menuItems.map((item) => {
                             return (
                               <li key={item.id}>
-                                <a href={item.url} target="-blank">{item.text} </a>
+                                <a href={item.url} target="_blank">{item.text} </a>
                               </li>
                             );
                           })}
@@ -149,7 +149,7 @@ const FooterData = {
           },
           {
             id: 3,
-            url: "https://drive.google.com/file/d/1hKvIrelIvMSA3ouMYYVfDhkcLdyfUBDf/view?usp=sharing",
+            url: "https://drive.google.com/file/d/11Q_BviNrLlc22eOtfueewbdY-D_1a7mM/view?usp=sharing",
             text: "Buku Panduan",
           },
         ],
@@ -183,11 +183,6 @@ const FooterData = {
             id: 2,
             url: "https://api.whatsapp.com/send/?phone=6288213248890&text&type=phone_number&app_absent=0",
             text: "+62 882-1324-8890",
-          },
-          {
-            id: 3,
-            url: "https://api.whatsapp.com/send/?phone=6281770914129&text&type=phone_number&app_absent=0",
-            text: "+62 817-7091-4129",
           },
           {
             id: 4,

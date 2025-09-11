@@ -17,11 +17,11 @@ function Organized() {
                                 <img src="/assets/logo/Iysa.png" alt="" />
                                 </a>
                             </div>
-                            <div className="col-lg-3 col-sm-4 col-6">
+                            {/* <div className="col-lg-3 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
                                 <img src="/assets/logo/aktuaria.png" alt="" />
                                 </a>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
                                 <img src="/assets/logo/vokasi.png" alt="" />

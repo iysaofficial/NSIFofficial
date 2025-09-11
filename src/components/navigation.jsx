@@ -46,16 +46,6 @@ function Navigation() {
                       Beranda
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      title="Winner"
-                      className="nav-link"
-                      target="-blank"
-                      href="https://drive.google.com/file/d/1hKvIrelIvMSA3ouMYYVfDhkcLdyfUBDf/view?usp=sharing"
-                    >
-                      Buku Panduan
-                    </a>
-                  </li>
                   <li className="dropdown submenu nav-item">
                     <Link
                       to="./"
