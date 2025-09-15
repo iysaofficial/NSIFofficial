@@ -49,6 +49,8 @@ function IndonesiaOffline() {
     switch (value) {
       case "National Science and Invention Fair - Offline Competition":
         break;
+      case "National Science and Invention Fair - Offline Competition + Full Package":
+        break;
       case "National Science and Invention Fair - Offline Competition + Excursion":
         break;
       default:
@@ -245,6 +247,9 @@ function IndonesiaOffline() {
                     <option value="">--Pilih Kategori Kompetisi--</option>
                     <option value="National Science and Invention Fair - Offline Competition">
                       Offline Competition
+                    </option>
+                    <option value="National Science and Invention Fair - Offline Competition + Full Package">
+                      Offline Competition + Full Package
                     </option>
                     <option value="National Science and Invention Fair - Offline Competition + Excursion">
                       Offline Competition + Excursion
