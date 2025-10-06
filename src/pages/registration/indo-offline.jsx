@@ -67,9 +67,11 @@ function IndonesiaOffline() {
     }
   }, [navigate]);
 
+  // const scriptURL =
+  //   "https://script.google.com/macros/s/AKfycbzXKPwOSIT1nHf5axnvsOFHpEdSBCW_SspNY1ceklGfiV5AYjGYfYNqRF733BsR314/exec";
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbzXKPwOSIT1nHf5axnvsOFHpEdSBCW_SspNY1ceklGfiV5AYjGYfYNqRF733BsR314/exec";
-
+    "";
+  
   useEffect(() => {
     const form = document.forms["regist-form"];
 
@@ -684,7 +686,7 @@ function IndonesiaOffline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="KIRIM" />
+                <input type="submit" value="Tutup Pendaftaran" />
               </div>
             </form>
             {/* Loader dan Status Message */}

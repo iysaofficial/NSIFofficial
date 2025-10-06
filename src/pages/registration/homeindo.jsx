@@ -54,7 +54,7 @@ function HomeIndo() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -64,8 +64,18 @@ function HomeIndo() {
               }
             >
               Kompetisi Online <i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
             <a
+              className="btn btn-action text-center me-lg-5 "
+              onClick={() =>
+                handleOpenModal(
+                  "/",
+                )
+              }
+            >
+              Tutup Pendaftaran <i className="fa-solid fa-earth-americas"></i>
+            </a>
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -75,6 +85,16 @@ function HomeIndo() {
               }
             >
               Kompetisi Offline <i className="fa-solid fa-earth-americas"></i>
+            </a> */}
+            <a
+              className="btn btn-action text-center me-lg-5 "
+              onClick={() =>
+                handleOpenModal(
+                  "/",
+                )
+              }
+            >
+              Tutup Pendaftaran <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>

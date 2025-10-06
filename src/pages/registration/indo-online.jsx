@@ -65,7 +65,9 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbwu8k5YPgS5kqVmQF7JO9gt3GwOnU1udovrJ5d0fk8LQdGsYeDdoK1NHjGQW9KuKuOT/exec";
+    "";
+  // const scriptURL =
+  //   "https://script.google.com/macros/s/AKfycbwu8k5YPgS5kqVmQF7JO9gt3GwOnU1udovrJ5d0fk8LQdGsYeDdoK1NHjGQW9KuKuOT/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -693,7 +695,7 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="KIRIM" />
+                <input type="submit" value="Tutup Pendaftaran" />
               </div>
             </form>
 
