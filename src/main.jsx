@@ -10,6 +10,8 @@ import HomeIndo from "./pages/registration/homeindo";
 import IndoOffline from "./pages/registration/indo-offline";
 import IndoOnline from "./pages/registration/indo-online";
 import ThankyouIndo from "./pages/registration/thankyouindo";
+import ListLow from "./pages/low/listlow";
+import List2025 from "./pages/low/2025/list2025";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
   {
     path: "/thankyouindo",
     element: <ThankyouIndo />,
+  },
+  {
+    path: "/listlow",
+    element: <ListLow />,
+  },
+  {
+    path: "/list2025",
+    element: <List2025 />,
   },
 ]);
 

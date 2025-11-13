@@ -54,7 +54,12 @@ i:before {
   padding: 235px 0 125px;
   background: url(/assets/img/callbg.jpg) center;
   color: #fff;
+}
 
+.breadcumb-low {
+  padding: 235px 0 125px;
+  background: url(/assets/img/world-map.png) center;
+  color: #fff;
 }
 
 .breadcumb h1,

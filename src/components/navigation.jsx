@@ -46,31 +46,15 @@ function Navigation() {
                       Beranda
                     </Link>
                   </li>
-                  <li className="dropdown submenu nav-item">
-                    <Link
-                      to="./"
-                      title="Pages"
-                      className="dropdown-toggle nav-link"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
+                  <li className="nav-item">
+                    <NavLink
+                      exact
+                      title="Service"
+                      className="nav-link"
+                      to="/listlow"
                     >
                       Daftar Pemenang
-                    </Link>
-                    <ul role="menu" className=" dropdown-menu">
-                      <li className="nav-item">
-                        <NavLink
-                          exact
-                          title="Service Details"
-                          className="nav-link"
-                          to="https://drive.google.com/file/d/1FprgaHepKiWxxrJxRXHEqeRtlpe_z_ue/view?usp=sharing"
-                          target="_blank"
-                        >
-                          Daftar Pemenang 2024
-                        </NavLink>
-                      </li>
-                    </ul>
+                    </NavLink>
                   </li>
                   <li className="dropdown submenu nav-item">
                     <Link
@@ -137,6 +121,17 @@ function Navigation() {
                       Sertifikat
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/drive/folders/1OAb1I_egfPytAE5XrQv1XWWBip4RlWWz?usp=sharing"
+                          target="_blank"
+                        >
+                          Sertifikat Supervisor 2025
+                        </NavLink>
+                      </li>
                       <li className="nav-item">
                         <NavLink
                           exact
