@@ -74,10 +74,10 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
-                          to="https://drive.google.com/file/d/1nZYFOswe9xRy-s4-fTlSiHedpxFayAM2/view?usp=sharing"
+                          to="https://drive.google.com/file/d/12D5KTwhSXcKZO8osMVpFk47Etgk0kGzY/view?usp=sharing"
                           target="_blank"
                         >
-                          Pesan Siaran 2024
+                          Pesan Siaran 2025
                         </NavLink>
                       </li>
                     </ul>
@@ -159,6 +159,15 @@ function Navigation() {
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
                       <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/drive/folders/1p-oWDrc1b9JgqGjVkgZ3tWzin0SCTDed?usp=sharing"
+                          target="_blank"
+                        >
+                          Galeri 2025
+                        </NavLink>
                         <NavLink
                           exact
                           title="Service Details"
