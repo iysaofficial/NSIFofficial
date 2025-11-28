@@ -21,7 +21,7 @@ export default function List2025() {
         online:
           "https://drive.google.com/file/d/19Eli4iraH0nTEQtUH12g-Wez1FecQnAi/view?usp=sharing",
         offline: 
-          "https://drive.google.com/file/d/1YQErdaa3p7egrVffW8PcBt8VuQ2eyUgT/view?usp=sharing",
+          "",
       },
     },
     {
@@ -29,7 +29,7 @@ export default function List2025() {
       driveLink: {
         online:
           "https://drive.google.com/file/d/12gzXhmZ2yfS8K2EGoMdnSmDpTaQ-J6gc/view?usp=sharing",
-        offline: "",
+        offline: "https://drive.google.com/file/d/1YQErdaa3p7egrVffW8PcBt8VuQ2eyUgT/view?usp=sharing",
       },
     },
     {
