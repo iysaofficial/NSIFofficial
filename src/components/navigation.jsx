@@ -129,7 +129,7 @@ function Navigation() {
                           to="https://drive.google.com/drive/folders/1OAb1I_egfPytAE5XrQv1XWWBip4RlWWz?usp=sharing"
                           target="_blank"
                         >
-                          Sertifikat Supervisor 2025
+                          Sertifikat Supervisor Online 2025
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -140,7 +140,7 @@ function Navigation() {
                           to="https://drive.google.com/drive/folders/1GwN1Dknrbd3xctVBswQ5NWYu9BD6qFqi?usp=drive_link"
                           target="_blank"
                         >
-                          Sertifikat Supervisor 2024
+                          Sertifikat Supervisor Online 2024
                         </NavLink>
                       </li>
                     </ul>
