@@ -12,6 +12,7 @@ import IndoOnline from "./pages/registration/indo-online";
 import ThankyouIndo from "./pages/registration/thankyouindo";
 import ListLow from "./pages/low/listlow";
 import List2025 from "./pages/low/2025/list2025";
+import Newspage from "./pages/news/newspage";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
     path: "/list2025",
     element: <List2025 />,
   },
+  {
+    path: "/newspage",
+    element: <Newspage />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -74,6 +74,14 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
+                          to="/newspage"
+                        >
+                          Berita dari Media
+                        </NavLink>
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
                           to="https://drive.google.com/file/d/12D5KTwhSXcKZO8osMVpFk47Etgk0kGzY/view?usp=sharing"
                           target="_blank"
                         >
