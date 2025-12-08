@@ -108,6 +108,17 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
+                          to="https://drive.google.com/drive/folders/1eJ6H9fEsijTuwuOXGWL9hPQPs_zhADgY?usp=sharing"
+                          target="_blank"
+                        >
+                          Kurasi 2025
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
                           to="https://drive.google.com/drive/folders/1WwYkepxXfmnWePsa7KqptyIGrWdA0sJQ?usp=sharing"
                           target="_blank"
                         >
