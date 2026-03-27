@@ -70,7 +70,7 @@ function IndonesiaOffline() {
   // const scriptURL =
   //   "https://script.google.com/macros/s/AKfycbzXKPwOSIT1nHf5axnvsOFHpEdSBCW_SspNY1ceklGfiV5AYjGYfYNqRF733BsR314/exec";
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbxeSfX9TX81K5zRNLwjUI-gwFFxw2dee8HJHnUhj3b_CQNYniA7H0JVMn-vgzxhnCv5lQ/exec";
   
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -160,7 +160,7 @@ function IndonesiaOffline() {
             <br />
             <br />
             <h4 className="text-xl">
-              HALLO PESERTA NSIF 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NSIF 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -641,7 +641,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi NSIF 2025
+                    Sumber Informasi Kompetisi NSIF 2026
                   </label>
                   <select
                     type="text"
@@ -686,7 +686,7 @@ function IndonesiaOffline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="Tutup Pendaftaran" />
+                <input type="submit" value="KIRIM" />
               </div>
             </form>
             {/* Loader dan Status Message */}

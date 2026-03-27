@@ -6,8 +6,8 @@ function MainHero() {
                 <div className="mx-auto text-center">
                     {/* <h1>BUKA PENDAFTARAN 2025</h1> */}
                     <h1>National Science And Invention Fair</h1>
-                    <a className="btn btn-action m-2" href="/">Tutup Pendaftaran</a>
-                    <a className="btn btn-action m-2" href="https://drive.google.com/file/d/11Q_BviNrLlc22eOtfueewbdY-D_1a7mM/view?usp=sharing" target="_blank">Buku Panduan</a>
+                    <a className="btn btn-action m-2" href="/homeindo">Daftar Disini</a>
+                    <a className="btn btn-action m-2" href="https://drive.google.com/file/d/1Gg2VUAJQHylCc134xzb6qIVq9XEIiRpt/view?usp=sharing" target="_blank">Buku Panduan</a>
                 </div>
             </div>
         </section>

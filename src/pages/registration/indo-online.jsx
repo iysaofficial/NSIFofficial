@@ -65,7 +65,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbzVnUJhDIOmElx6Y4nx-bwK9lZlbSLcZZRgYXscgGLAFfwy_e_QnNaNXhe0BdOjAzkxhw/exec";
   // const scriptURL =
   //   "https://script.google.com/macros/s/AKfycbwu8k5YPgS5kqVmQF7JO9gt3GwOnU1udovrJ5d0fk8LQdGsYeDdoK1NHjGQW9KuKuOT/exec";
 
@@ -159,7 +159,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA NSIF 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NSIF 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -650,7 +650,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi NSIF 2025
+                    Sumber Informasi Kompetisi NSIF 2026
                   </label>
                   <select
                     type="text"
@@ -695,7 +695,7 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
-                <input type="submit" value="Tutup Pendaftaran" />
+                <input type="submit" value="KIRIM" />
               </div>
             </form>
 

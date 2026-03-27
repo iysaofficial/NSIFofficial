@@ -49,12 +49,12 @@ function HomeIndo() {
                 FORMULIR REGISTRASI
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi NSIF 2025
+                Pilih Kategori Kompetisi untuk Registrasi NSIF 2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            {/* <a
+            <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -64,18 +64,18 @@ function HomeIndo() {
               }
             >
               Kompetisi Online <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
-            <a
+            </a>
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
-                  "/",
+                  "/indo-online",
                 )
               }
             >
-              Tutup Pendaftaran <i className="fa-solid fa-earth-americas"></i>
-            </a>
-            {/* <a
+              Indonesia Online  <i className="fa-solid fa-earth-americas"></i>
+            </a> */}
+            <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -85,8 +85,8 @@ function HomeIndo() {
               }
             >
               Kompetisi Offline <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
-            <a
+            </a>
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -94,8 +94,8 @@ function HomeIndo() {
                 )
               }
             >
-              Tutup Pendaftaran <i className="fa-solid fa-earth-americas"></i>
-            </a>
+              Indonesia Offline <i className="fa-solid fa-earth-americas"></i>
+            </a> */}
           </div>
         </div>
       </section>
