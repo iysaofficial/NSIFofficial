@@ -557,10 +557,10 @@ function IndonesiaOnline() {
                     <option value="Physic, Energy and Engineering">
                       Physic, Energy and Engineering
                     </option>
-                    <option value="Life Science">Life Science</option>
+                    <option value="Life Sciences">Life Sciences</option>
                     <option value="Technology">Technology</option>
                     <option value="Environment">Environment</option>
-                    <option value="Social Science">Social Science</option>
+                    <option value="Social Sciences">Social Sciences</option>
                     <option value="Education">Education</option>
                   </select>
                 </div>

@@ -108,14 +108,87 @@ i:before {
 /* Main Hero Start*/
 
 .mainhero-section {
-  padding: 200px 25px 75px 25px;
-  background: #03ebcccc url('/assets/img/world-map.png') center;
-  height: 60vh;
+  position: relative;
+  height: 65vh;
+  min-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainhero-slide-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  z-index: 0;
+}
+
+.mainhero-slide-img.active {
+  opacity: 1;
+}
+
+.mainhero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.mainhero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.mainhero-content h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.mainhero-indicators {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.mainhero-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.mainhero-dot.active {
+  background: #fff;
+  transform: scale(1.25);
+}
+
+.mainhero-dot:hover {
+  background: rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 426px){
   .mainhero-section {
     height: auto;
+    min-height: 350px;
+  }
+  .mainhero-content h1 {
+    font-size: 1.5rem;
   }
 }
 

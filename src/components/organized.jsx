@@ -8,11 +8,11 @@ function Organized() {
                 <div className="event_sponser_item">
                     <div className="row">
                     <div className="col-lg-3 col-md-4">
-                        <h4 className="h_head sponser_title">Diselenggarakan oleh :</h4>
+                        <h5 className="h_head sponser_title">Diselenggarakan oleh :</h5>
                     </div>
                     <div className="col-lg-9 col-md-8">
                         <div className="row ">
-                            <div className="col-lg-3 col-sm-4 col-6">
+                            <div className="col-lg-4 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
                                 <img src="/assets/logo/Iysa.png" alt="" />
                                 </a>
@@ -24,7 +24,7 @@ function Organized() {
                             </div> */}
                             <div className="col-lg-3 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
-                                <img src="/assets/logo/vokasi.png" alt="" />
+                                <img src="/assets/logo/Logo UI-11.png" alt="" />
                                 </a>
                             </div>
                             {/* <div className="col-lg-3 col-sm-4 col-6">
