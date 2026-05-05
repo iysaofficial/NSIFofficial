@@ -149,7 +149,7 @@ const FooterData = {
           },
           {
             id: 3,
-            url: "https://drive.google.com/file/d/11Q_BviNrLlc22eOtfueewbdY-D_1a7mM/view?usp=sharing",
+            url: "https://drive.google.com/drive/folders/1i8GTeBCaEG-P9-E454iwzNdQXxAAoI7i?usp=sharing",
             text: "Buku Panduan",
           },
         ],

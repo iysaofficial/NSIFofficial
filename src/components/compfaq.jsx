@@ -270,7 +270,7 @@ const data = [
       id: "faqCollapse-After-1",
       question: "Kapan pengumuman pemenang?",
       answer:
-        "Pengumuman pemenang dilaksanakan pada hari terakhir disetiap event, kamu bisa cek tanggalnya di jadwal yang tertera di Guide Book.",
+        "Pengumuman pemenang dilaksanakan pada hari terakhir disetiap event, kamu bisa cek tanggalnya di jadwal yang tertera di Buku Panduan.",
     },
     {
       no: "2",
