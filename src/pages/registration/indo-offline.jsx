@@ -248,13 +248,13 @@ function IndonesiaOffline() {
                   >
                     <option value="">--Pilih Kategori Kompetisi--</option>
                     <option value="National Science and Invention Fair - Offline Competition">
-                      Offline Competition
+                      Kompetisi Luring
                     </option>
                     <option value="National Science and Invention Fair - Offline Competition + Full Package">
-                      Offline Competition + Full Package
+                      Kompetisi Luring + Full Package
                     </option>
                     <option value="National Science and Invention Fair - Offline Competition + Excursion">
-                      Offline Competition + Excursion
+                      Kompetisi Luring + Excursion
                     </option>
                   </select>
                 </div>

@@ -248,7 +248,7 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Kategori Kompetisi--</option>
                     <option value="National Science and Invention Fair - Online Competition">
-                      Online Competition
+                      Kompetisi Daring
                     </option>
                   </select>
                 </div>
