@@ -51,11 +51,11 @@ function IndonesiaOffline() {
       case "National Science and Invention Fair - Offline Competition":
         setCategoryPrice("RP 3.150.000");
         break;
-      case "National Science and Invention Fair - Offline Competition + Full Package":
-        break;
       case "National Science and Invention Fair - Offline Competition + Excursion":
+        setCategoryPrice("");
         break;
       default:
+        setCategoryPrice("");
         break;
     }
   };
@@ -253,9 +253,9 @@ function IndonesiaOffline() {
                     <option value="National Science and Invention Fair - Offline Competition">
                       Kompetisi Luring
                     </option>
-                    <option value="National Science and Invention Fair - Offline Competition + Full Package">
+                    {/* <option value="National Science and Invention Fair - Offline Competition + Full Package">
                       Kompetisi Luring + Full Package
-                    </option>
+                    </option> */}
                     <option value="National Science and Invention Fair - Offline Competition + Excursion">
                       Kompetisi Luring + Excursion
                     </option>
