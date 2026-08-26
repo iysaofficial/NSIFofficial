@@ -38,12 +38,13 @@ function MainHero() {
                     {/* <h1>BUKA PENDAFTARAN 2025</h1> */}
                     <h1>National Science And Invention Fair</h1>
                     <h2>2026</h2>
-                    <Link
+                    {/* <Link
                         to="/homeindo"
                         className="btn btn-action m-2"
                     >
                         Daftar disini !
-                    </Link>
+                    </Link> */}
+                    <button type="button" className="btn btn-action m-2" style={{ cursor: "not-allowed", opacity: 0.7 }}>Coming Soon 2027</button>
                     {/* <button className="btn btn-action m-2" onClick={() => alert("Pendaftaran akan segera dibuka!")}>Pendaftaran Ditutup</button> */}
                     
                     <a className="btn btn-action m-2" href="https://drive.google.com/drive/folders/1i8GTeBCaEG-P9-E454iwzNdQXxAAoI7i?usp=sharing" target="_blank">Buku Panduan</a>
