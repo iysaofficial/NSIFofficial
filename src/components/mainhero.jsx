@@ -49,7 +49,7 @@ function MainHero() {
               className="btn btn-action m-2"
               style={{ cursor: "not-allowed", opacity: 0.7 }}
             >
-              Registrasi Ditutup 2027
+              Registrasi Ditutup
             </button>
             {/* <button className="btn btn-action m-2" onClick={() => alert("Pendaftaran akan segera dibuka!")}>Pendaftaran Ditutup</button> */}
 
