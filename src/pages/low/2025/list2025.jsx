@@ -20,8 +20,7 @@ export default function List2025() {
       driveLink: {
         online:
           "https://drive.google.com/file/d/19Eli4iraH0nTEQtUH12g-Wez1FecQnAi/view?usp=sharing",
-        offline: 
-          "",
+        offline: "",
       },
     },
     {
@@ -29,7 +28,8 @@ export default function List2025() {
       driveLink: {
         online:
           "https://drive.google.com/file/d/12gzXhmZ2yfS8K2EGoMdnSmDpTaQ-J6gc/view?usp=sharing",
-        offline: "https://drive.google.com/file/d/1YQErdaa3p7egrVffW8PcBt8VuQ2eyUgT/view?usp=sharing",
+        offline:
+          "https://drive.google.com/file/d/1YQErdaa3p7egrVffW8PcBt8VuQ2eyUgT/view?usp=sharing",
       },
     },
     {
@@ -112,7 +112,7 @@ export default function List2025() {
                         type="button"
                         className="btn btn-outline-secondary"
                         disabled
-                        aria-label={`${cat.label} ${mode} coming soon`}
+                        aria-label={`${cat.label} ${mode} Registrasi Ditutup`}
                       >
                         Soon
                       </button>

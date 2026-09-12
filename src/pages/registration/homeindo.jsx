@@ -70,7 +70,7 @@ function HomeIndo() {
               className="btn btn-action text-center me-lg-5 "
               style={{ cursor: "not-allowed", opacity: 0.7 }}
             >
-              Coming Soon
+              Registrasi Ditutup
             </button>
             {/* <a
               className="btn btn-action text-center me-lg-5 "
@@ -88,7 +88,7 @@ function HomeIndo() {
               className="btn btn-action text-center me-lg-5 "
               style={{ cursor: "not-allowed", opacity: 0.7 }}
             >
-              Coming Soon
+              Registrasi Ditutup
             </button>
           </div>
         </div>
