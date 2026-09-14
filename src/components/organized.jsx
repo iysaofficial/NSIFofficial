@@ -24,7 +24,7 @@ function Organized() {
                             </div> */}
                             <div className="col-lg-3 col-sm-4 col-6">
                                 <a className="analytices_logo wow fadeInUp">
-                                <img src="/assets/logo/Logo UI-11.png" alt="" />
+                                <img src="/assets/logo/Logo FMIPA UI-10.png" alt="" />
                                 </a>
                             </div>
                             {/* <div className="col-lg-3 col-sm-4 col-6">
