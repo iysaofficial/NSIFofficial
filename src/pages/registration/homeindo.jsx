@@ -54,7 +54,7 @@ function HomeIndo() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -64,18 +64,15 @@ function HomeIndo() {
               }
             >
               Kompetisi Daring <i className="fa-solid fa-earth-americas"></i>
-            </a>
-            {/* <a
-              className="btn btn-action text-center me-lg-5 "
-              onClick={() =>
-                handleOpenModal(
-                  "/indo-online",
-                )
-              }
-            >
-              Indonesia Online  <i className="fa-solid fa-earth-americas"></i>
             </a> */}
-            <a
+            <button
+              type="button"
+              className="btn btn-action text-center me-lg-5 "
+              style={{ cursor: "not-allowed", opacity: 0.7 }}
+            >
+              Registrasi Ditutup
+            </button>
+            {/* <a
               className="btn btn-action text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
@@ -85,17 +82,14 @@ function HomeIndo() {
               }
             >
               Kompetisi Luring <i className="fa-solid fa-earth-americas"></i>
-            </a>
-            {/* <a
-              className="btn btn-action text-center me-lg-5 "
-              onClick={() =>
-                handleOpenModal(
-                  "/",
-                )
-              }
-            >
-              Indonesia Offline <i className="fa-solid fa-earth-americas"></i>
             </a> */}
+            <button
+              type="button"
+              className="btn btn-action text-center me-lg-5 "
+              style={{ cursor: "not-allowed", opacity: 0.7 }}
+            >
+              Registrasi Ditutup
+            </button>
           </div>
         </div>
       </section>
