@@ -199,6 +199,43 @@ function Navigation() {
                       </li>
                     </ul>
                   </li>
+
+                  <li className="dropdown submenu nav-item">
+                    <Link
+                      to="./"
+                      title="Pages"
+                      className="dropdown-toggle nav-link"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Buku Panduan
+                    </Link>
+                    <ul role="menu" className=" dropdown-menu">
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/file/d/1fedGL8-Qts642RuMIxckRDG4rQTQ45bj/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Buku Panduan 2025
+                        </NavLink>
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/file/d/1hKvIrelIvMSA3ouMYYVfDhkcLdyfUBDf/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Buku Panduan 2024
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+
                   <li className="nav-item">
                     <NavLink
                       exact

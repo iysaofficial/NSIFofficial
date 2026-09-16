@@ -1294,6 +1294,7 @@ button:focus {
   transition: color 0.3s ease 0s;
   position: relative;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .menu > .nav-item > .nav-link:before {
