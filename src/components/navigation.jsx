@@ -87,6 +87,15 @@ function Navigation() {
                         >
                           Pesan Siaran 2025
                         </NavLink>
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/file/d/1kNhPgPbXJ6PcirFeKAEn6cFhWyHh2nsx/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Pesan Siaran 2024
+                        </NavLink>
                       </li>
                     </ul>
                   </li>

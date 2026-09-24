@@ -7,8 +7,8 @@ function Newspage() {
   return (
     <>
       <Helmet>
-        <title>List Pemenang | NSIF</title>
-        <meta name="description" content="Halaman List pemenang NSIF" />
+        <title>Berita & Media | NSIF</title>
+        <meta name="description" content="Kumpulan berita, publikasi media, dan informasi terbaru seputar National Science and Invention Fair (NSIF)." />
       </Helmet>
       <Navigation />
 
