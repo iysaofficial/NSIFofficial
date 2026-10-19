@@ -154,7 +154,7 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
-                          to="https://drive.google.com/drive/folders/1VsFlGVG_G02bSPeehqCSKyZTtOLGWBAA?usp=sharing"
+                          to="https://drive.google.com/drive/folders/1lGX7ouLEEBjcqIcqi1lP-JpeOOOYUkf_?usp=sharing"
                           target="_blank"
                         >
                           Sertifikat Supervisor 2026
