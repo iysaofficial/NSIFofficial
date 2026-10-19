@@ -6,6 +6,12 @@ import { Helmet } from "react-helmet-async";
 function ListLow() {
   const winners = [
     {
+      year: 2026,
+      color: "warning",
+      link: "/list2026",
+      external: true,
+    },
+    {
       year: 2025,
       color: "warning",
       link: "/list2025",

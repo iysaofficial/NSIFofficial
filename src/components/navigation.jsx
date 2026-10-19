@@ -154,6 +154,17 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
+                          to="https://drive.google.com/drive/folders/1VsFlGVG_G02bSPeehqCSKyZTtOLGWBAA?usp=sharing"
+                          target="_blank"
+                        >
+                          Sertifikat Supervisor 2026
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
                           to="https://drive.google.com/drive/folders/1OAb1I_egfPytAE5XrQv1XWWBip4RlWWz?usp=sharing"
                           target="_blank"
                         >

@@ -112,7 +112,7 @@ export default function List2025() {
                         type="button"
                         className="btn btn-outline-secondary"
                         disabled
-                        aria-label={`${cat.label} ${mode} Registrasi Ditutup`}
+                        aria-label={`${cat.label} ${mode} Segera Hadir 2027`}
                       >
                         Soon
                       </button>
