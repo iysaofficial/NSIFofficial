@@ -1,17 +1,16 @@
 import Sticky from "react-stickynode";
-import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
-    return (
-        <>
-        <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
+  return (
+    <>
+      <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <header className="header_area">
           <nav className="navbar navbar-expand-lg menu_one">
-            <div className="container" >
+            <div className="container">
               <Link className="navbar-brand " to="/">
-                <img src="/assets/logo/NSIF.png" alt="test"/>
+                <img src="/assets/logo/NSIF.png" alt="test" />
                 <img src="/assets/logo/NSIF.png" alt="logo" />
               </Link>
               <button
@@ -77,6 +76,15 @@ function Navigation() {
                           to="/newspage"
                         >
                           Berita dari Media
+                        </NavLink>
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
+                          to="https://drive.google.com/file/d/1C0SB63mLWtS1yTSbt3ET9FvFmswDLJiJ/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Pesan Siaran 2026
                         </NavLink>
                         <NavLink
                           exact
@@ -278,7 +286,7 @@ function Navigation() {
         </header>
       </Sticky>
     </>
-    )
+  );
 }
 
 export default Navigation;

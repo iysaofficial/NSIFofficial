@@ -13,7 +13,7 @@ function ListLow() {
     },
     {
       year: 2025,
-      color: "warning",
+      color: "primary",
       link: "/list2025",
       external: true,
     },

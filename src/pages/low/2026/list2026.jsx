@@ -10,21 +10,24 @@ export default function List2026() {
     {
       label: "Sekolah Dasar",
       driveLink: {
-        online: "https://drive.google.com/file/d/1vKQOWrN9JBAUVhPwxAHa7sEDj6wLbSzH/view?usp=sharing",
+        online:
+          "https://drive.google.com/file/d/13yqWx2DSDncc0IvyHWFVpNualwrrJ_mH/view?usp=sharing",
         offline: "",
       },
     },
     {
       label: "Sekolah Menengah",
       driveLink: {
-        online: "https://drive.google.com/file/d/1YYiArQ9syTbLcp2FnFGn2yF2xHZs9zac/view?usp=sharing",
+        online:
+          "https://drive.google.com/file/d/1ci0eQv2EekveyRJP2epWFKdE9Lyuqg72/view?usp=sharing",
         offline: "",
       },
     },
     {
       label: "Universitas",
       driveLink: {
-        online: "https://drive.google.com/file/d/1TZ43ndIEovPysoMiFwgECUXd2vaXHhR6/view?usp=sharing",
+        online:
+          "https://drive.google.com/file/d/13zbnZFQFHOHsFL4FThN8jpsw37KQ8awa/view?usp=sharing",
         offline: "",
       },
     },

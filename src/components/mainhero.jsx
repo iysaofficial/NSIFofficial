@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const bgImages = [
-  "https://ik.imagekit.io/iysaimg/tr:w-1440,q-75,f-auto/ASSET%20IYSA/BG_ui_hvuc8p.png?updatedAt=1781963635481",
-  "https://ik.imagekit.io/iysaimg/tr:w-1440,q-75,f-auto/ASSET%20IYSA/nsif_2_kood8y.jpg?updatedAt=1781963636175",
-  "https://ik.imagekit.io/iysaimg/tr:w-1440,q-75,f-auto/ASSET%20IYSA/nsif_3_dc8pjp.jpg?updatedAt=1781963635508",
-  "https://ik.imagekit.io/iysaimg/tr:w-1440,q-75,f-auto/ASSET%20IYSA/nsif_klwyqv.jpg?updatedAt=1781963635823",
+  "/assets/img/BG_ui_hvuc8p.png",
+  "/assets/img/ISIF 2025-382.jpg",
+  "/assets/img/ISIF 2025-22.jpg",
+  "/assets/img/nsif_3_dc8pjp.jpg",
 ];
 
 function MainHero() {
