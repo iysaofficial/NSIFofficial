@@ -6,54 +6,173 @@ function Newscomp() {
   const newsData = [
     {
       id: 1,
-      year: "2025",
-      portal: "Jabaran.id",
-      image: "/assets/img/20251.jpg",
-      title: "NSIF, ISIF, NRTC, dan IRTC 2025 Sukses Digelar, Hadirkan 774 Tim dari 24 Negara",
-      description: "Empat kompetisi ilmiah bergengsi yang diselenggarakan oleh Indonesian Young Scientist Association (IYSA) bekerja sama dengan Sekolah Vokasi Undip dan IISF Turki sukses digelar secara hybrid.",
-      link: "https://jabaran.id/nsif-isif-nrtc-dan-irtc-2025-sukses-digelar-hadirkan-774-tim-dari-24-negara/",
-      date: "12 November 2025"
+      year: "2026",
+      portal: "BeritaInd.com",
+      image: "/assets/img/20261.jpg",
+      title:
+        "Keren, Tim SMA Dea Malela Raih Medali Perunggu di Ajang ISIF-NSIF 2026",
+      description:
+        "Prestasi membanggakan kembali diraih santri SMA Dea Malela Sumbawa dengan meraih medali perunggu di ajang bergengsi ISIF dan NSIF 2026 di Universitas Indonesia.",
+      link: "https://beritaind.com/2026/10/20/keren-tim-sma-dea-malela-raih-medali-perunggu-di-ajang-isif-nsif-2026/",
+      date: "20 Oktober 2026",
     },
     {
       id: 2,
-      year: "2025",
-      portal: "FK USU",
-      image: "https://konten.usu.ac.id/storage/posts/Nov-2025/57089/ISIF%202025.webp",
-      title: "Delegasi Fakultas Kedokteran Raih Gold Medal di Ajang Sains Internasional 2025",
-      description: "Delegasi Fakultas Kedokteran Universitas Sumatera Utara (USU) berhasil meraih Gold Medal pada kategori Life Science tingkat Universitas di ajang ISIF & NSIF 2025 lewat inovasi Curmahon™.",
-      link: "https://fk.usu.ac.id/id/berita/delegasi-fakultas-kedokteran-raih-gold-medal-di-ajang-sains-internasional-2025",
-      date: "13 November 2025"
+      year: "2026",
+      portal: "Bercahaya FM",
+      image: "/assets/img/20262.jpg",
+      title:
+        "SMA Negeri 2 Cilacap Sabet Medali Emas NSIF 2026 Berkat Riset Fenomena Fatherless",
+      description:
+        "Tim riset SMA Negeri 2 Cilacap berhasil mengharumkan nama daerah dengan menyabet medali emas di ajang National Science and Invention Fair (NSIF) 2026 lewat riset fenomena fatherless.",
+      link: "https://bercahayafm.cilacapkab.go.id/sma-negeri-2-cilacap-sabet-medali-emas-nsif-2026-berkat-riset-fenomena-fatherless/",
+      date: "12 Oktober 2026",
     },
     {
       id: 3,
-      year: "2025",
-      portal: "SMPN 6 Surabaya",
-      image: "https://www.smpn6-sby.sch.id/storage/images/berita/1763117614_0A968C6E-B2FE-4B4D-92B1-9F810D31E46B.jpeg",
-      title: "Meraih Gold Medal dalam Lomba National Science and Invention Fair (NSIF) 2025",
-      description: "Tiga siswa SMP Negeri 6 Surabaya berhasil meraih Gold Medal dan Best Presentation pada ajang National Science and Invention Fair (NSIF) 2025 dengan penelitian Deteksi Kualitas Air Sungai dengan Makroinvertebrata.",
-      link: "https://www.smpn6-sby.sch.id/berita/meraih-gold-medal-dalam-lomba-national-science-and-invention-fair-nsif-2025",
-      date: "14 November 2025"
+      year: "2026",
+      portal: "Suara Merdeka",
+      image: "/assets/img/20263.jpg",
+      title: "ISIF dan NSIF 2026 UI: Tim SMA Dea Malela Raih Medali Perunggu",
+      description:
+        "Dua tim riset SMA Dea Malela Sumbawa sukses menorehkan prestasi gemilang dengan meraih medali perunggu pada ajang ISIF dan NSIF 2026 di Balairung Universitas Indonesia.",
+      link: "https://jakarta.suaramerdeka.com/pendidikan/13417784434/isif-dan-nsif-2026-ui-tim-sma-dea-malela-raih-medali-perunggu",
+      date: "19 Oktober 2026",
     },
     {
       id: 4,
-      year: "2024",
-      portal: "MAN 14 Jakarta",
-      image: "https://www.man14jkt.sch.id/upload/imagecache/7722530FotoKIR-800x450.jpeg",
-      title: "Siswa MAN 14 Jakarta Raih Medali Perak di NSIF 2024",
-      description: "Reihan Sakuraghi Arwansyah dan Zalika Imani Hamida siswa MAN 14 Jakarta berhasil meraih Medali Perak kategori Life Science pada National Science and Invention Fair (NSIF) 2024 di Bali.",
-      link: "https://www.man14jkt.sch.id/berita/detail/431208/siswa-man-14-jakarta-raih-medali-perak-di-nsif-2024/",
-      date: "02 Desember 2024"
+      year: "2026",
+      portal: "Gerbang Indonesia",
+      image: "/assets/img/20264.jpg",
+      title:
+        "Tim SMA Dea Malela Raih Medali Perunggu Pada Ajang ISIF & NSIF 2026 di Kampus Universitas Indonesia",
+      description:
+        "Tim peneliti muda dari SMA Dea Malela berhasil meraih medali perunggu dalam kompetisi riset sains internasional ISIF dan NSIF 2026 yang berlangsung di Balairung UI.",
+      link: "https://gerbangindonesia.co.id/2026/10/19/tim-sma-dea-malela-raih-medali-perunggu-pada-ajang-isif-nsif-2026-di-kampus-universitas-indonesia/",
+      date: "19 Oktober 2026",
     },
     {
       id: 5,
+      year: "2026",
+      portal: "Tagar.co",
+      image: "/assets/img/20265.jpg",
+      title:
+        "Jejak Prestasi Sains Santri Dea Malela, dari WSO hingga Universitas Indonesia",
+      description:
+        "Santri SMA Dea Malela menorehkan jejak prestasi membanggakan di bidang sains, puncaknya meraih medali di ajang ISIF dan NSIF 2026 di Universitas Indonesia.",
+      link: "https://tagar.co/jejak-prestasi-sains-santri-dea-malela-dari-wso-hingga-universitas-indonesia/",
+      date: "19 Oktober 2026",
+    },
+    {
+      id: 6,
+      year: "2026",
+      portal: "Pulau Sumbawa News",
+      image: "/assets/img/20266.jpg",
+      title:
+        "Dua Tim SMA Dea Malela Raih Medali Perunggu di Ajang Sains Nasional dan Internasional",
+      description:
+        "Dua tim SMA Dea Malela sukses meraih medali perunggu pada kompetisi riset bergengsi tingkat nasional dan internasional, NSIF dan ISIF 2026 di Universitas Indonesia.",
+      link: "https://pulausumbawanews.net/2026/10/19/dua-tim-sma-dea-malela-raih-medali-perunggu-di-ajang-sains-nasional-dan-internasional/",
+      date: "19 Oktober 2026",
+    },
+    {
+      id: 7,
+      year: "2026",
+      portal: "SAIM",
+      image: "/assets/img/20267.jpg",
+      title:
+        "Robot Deteksi Banjir Siswa SD SAIM Raih Medali Emas di Kompetisi NSIF 2026",
+      description:
+        "Siswa SD Sekolah Alam Insan Mulia (SAIM) Surabaya sukses menyabet medali emas di ajang National Science and Invention Fair (NSIF) 2026 berkat inovasi robot deteksi banjir.",
+      link: "https://www.saim.sch.id/news/robot-deteksi-banjir-siswa-sd-saim-raih-medali-emas-di-kompetisi-nsif-2026/",
+      date: "09 Oktober 2026",
+    },
+    {
+      id: 8,
+      year: "2026",
+      portal: "Reportase 7",
+      image: "/assets/img/20268.jpg",
+      title:
+        "Dua Tim PMI Dea Malela Sumbawa Raih Medali Perunggu di Ajang Sains Nasional dan Internasional",
+      description:
+        "Pesantren Modern Internasional (PMI) Dea Malela Sumbawa menorehkan prestasi membanggakan dengan meraih medali perunggu di ajang riset ISIF & NSIF 2026 di Universitas Indonesia.",
+      link: "https://www.reportase7.com/2026/10/dua-tim-pmi-dea-malela-sumbawa-raih.html",
+      date: "19 Oktober 2026",
+    },
+    {
+      id: 9,
+      year: "2026",
+      portal: "FTNews",
+      image: "/assets/img/20269.jpg",
+      title:
+        "25 Negara Bersaing di ISIF 2026, Rebut Peluang Emas Golden Ticket Kuliah di UI",
+      description:
+        "Sebanyak 25 negara berkompetisi di ajang ISIF & NSIF 2026 yang digelar di Balairung Universitas Indonesia, memperebutkan penghargaan dan golden ticket masuk UI.",
+      link: "https://ftnews.co.id/25-negara-bersaing-di-isif-2026-rebut-peluang-emas-golden-ticket-kuliah-di-ui",
+      date: "19 Oktober 2026",
+    },
+    {
+      id: 10,
+      year: "2025",
+      portal: "Jabaran.id",
+      image: "/assets/img/20251.jpg",
+      title:
+        "NSIF, ISIF, NRTC, dan IRTC 2025 Sukses Digelar, Hadirkan 774 Tim dari 24 Negara",
+      description:
+        "Empat kompetisi ilmiah bergengsi yang diselenggarakan oleh Indonesian Young Scientist Association (IYSA) bekerja sama dengan Sekolah Vokasi Undip dan IISF Turki sukses digelar secara hybrid.",
+      link: "https://jabaran.id/nsif-isif-nrtc-dan-irtc-2025-sukses-digelar-hadirkan-774-tim-dari-24-negara/",
+      date: "12 November 2025",
+    },
+    {
+      id: 11,
+      year: "2025",
+      portal: "FK USU",
+      image:
+        "https://konten.usu.ac.id/storage/posts/Nov-2025/57089/ISIF%202025.webp",
+      title:
+        "Delegasi Fakultas Kedokteran Raih Gold Medal di Ajang Sains Internasional 2025",
+      description:
+        "Delegasi Fakultas Kedokteran Universitas Sumatera Utara (USU) berhasil meraih Gold Medal pada kategori Life Science tingkat Universitas di ajang ISIF & NSIF 2025 lewat inovasi Curmahon™.",
+      link: "https://fk.usu.ac.id/id/berita/delegasi-fakultas-kedokteran-raih-gold-medal-di-ajang-sains-internasional-2025",
+      date: "13 November 2025",
+    },
+    {
+      id: 12,
+      year: "2025",
+      portal: "SMPN 6 Surabaya",
+      image:
+        "https://www.smpn6-sby.sch.id/storage/images/berita/1763117614_0A968C6E-B2FE-4B4D-92B1-9F810D31E46B.jpeg",
+      title:
+        "Meraih Gold Medal dalam Lomba National Science and Invention Fair (NSIF) 2025",
+      description:
+        "Tiga siswa SMP Negeri 6 Surabaya berhasil meraih Gold Medal dan Best Presentation pada ajang National Science and Invention Fair (NSIF) 2025 dengan penelitian Deteksi Kualitas Air Sungai dengan Makroinvertebrata.",
+      link: "https://www.smpn6-sby.sch.id/berita/meraih-gold-medal-dalam-lomba-national-science-and-invention-fair-nsif-2025",
+      date: "14 November 2025",
+    },
+    {
+      id: 13,
+      year: "2024",
+      portal: "MAN 14 Jakarta",
+      image:
+        "https://www.man14jkt.sch.id/upload/imagecache/7722530FotoKIR-800x450.jpeg",
+      title: "Siswa MAN 14 Jakarta Raih Medali Perak di NSIF 2024",
+      description:
+        "Reihan Sakuraghi Arwansyah dan Zalika Imani Hamida siswa MAN 14 Jakarta berhasil meraih Medali Perak kategori Life Science pada National Science and Invention Fair (NSIF) 2024 di Bali.",
+      link: "https://www.man14jkt.sch.id/berita/detail/431208/siswa-man-14-jakarta-raih-medali-perak-di-nsif-2024/",
+      date: "02 Desember 2024",
+    },
+    {
+      id: 14,
       year: "2024",
       portal: "SMPI Modern Al Fakhir",
-      image: "https://cdn.sanity.io/images/vcaarauj/production/92796a6eed2cbed481da75785d0d61feebd959d5-2080x1170.jpg",
+      image:
+        "https://cdn.sanity.io/images/vcaarauj/production/92796a6eed2cbed481da75785d0d61feebd959d5-2080x1170.jpg",
       title: "National Science and Innovation Fair (NSIF) 2024",
-      description: "Delegasi siswa SMP Islam Modern Al Fakhir berhasil menorehkan prestasi membanggakan dengan meraih Medali Perak pada National Science & Innovation Fair (NSIF) 2024 di Denpasar, Bali.",
+      description:
+        "Delegasi siswa SMP Islam Modern Al Fakhir berhasil menorehkan prestasi membanggakan dengan meraih Medali Perak pada National Science & Innovation Fair (NSIF) 2024 di Denpasar, Bali.",
       link: "https://www.smpialfakhir.sch.id/blog/national-science-and-innovation-fair",
-      date: "10 November 2024"
-    }
+      date: "10 November 2024",
+    },
   ];
 
   const filteredNews =
@@ -74,6 +193,15 @@ function Newscomp() {
             onClick={() => setSelectedYear("all")}
           >
             Semua Berita ({newsData.length})
+          </button>
+          <button
+            type="button"
+            className={`btn news-filter-btn ${
+              selectedYear === "2026" ? "active" : ""
+            }`}
+            onClick={() => setSelectedYear("2026")}
+          >
+            Berita 2026 ({newsData.filter((n) => n.year === "2026").length})
           </button>
           <button
             type="button"
@@ -187,7 +315,9 @@ function Newscomp() {
           border-radius: 16px;
           overflow: hidden;
           background: #ffffff;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          transition:
+            transform 0.3s ease,
+            box-shadow 0.3s ease;
         }
 
         .news-card:hover {

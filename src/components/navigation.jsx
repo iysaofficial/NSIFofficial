@@ -210,6 +210,15 @@ function Navigation() {
                           exact
                           title="Service Details"
                           className="nav-link"
+                          to="https://drive.google.com/drive/folders/1VB4NwdBTuKipGVEbYv9wfgEWEQO5Q75H?usp=sharing"
+                          target="_blank"
+                        >
+                          Galeri 2026
+                        </NavLink>
+                        <NavLink
+                          exact
+                          title="Service Details"
+                          className="nav-link"
                           to="https://drive.google.com/drive/folders/1p-oWDrc1b9JgqGjVkgZ3tWzin0SCTDed?usp=sharing"
                           target="_blank"
                         >
