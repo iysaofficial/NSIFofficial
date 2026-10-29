@@ -1,30 +1,30 @@
-import Navigation from "../../components/navigation";
-import Footer from "../../components/footer";
+import { Navigation, Footer, NewsSection } from "../../components";
 import { Helmet } from "react-helmet-async";
-import Newscomp from "../../components/newscomp";
 
-function Newspage() {
+function NewsPage() {
   return (
     <>
       <Helmet>
         <title>Berita & Media | NSIF</title>
-        <meta name="description" content="Kumpulan berita, publikasi media, dan informasi terbaru seputar National Science and Invention Fair (NSIF)." />
+        <meta
+          name="description"
+          content="Kumpulan berita, publikasi media, dan informasi terbaru seputar National Science and Invention Fair (NSIF)."
+        />
       </Helmet>
       <Navigation />
 
-      {/* BREADCUMB START */}
+      {/* BREADCRUMB START */}
       <div className="breadcumb-low text-center">
         <h1>Berita Terbaru</h1>
         <p>Tetap terupdate dengan berita dan wawasan terbaru.</p>
       </div>
-      {/* BREADCUMB END */}
+      {/* BREADCRUMB END */}
 
-      <Newscomp/>
+      <NewsSection />
 
-      
       <Footer />
     </>
   );
 }
 
-export default Newspage;
+export default NewsPage;

@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useMemo } from "react";
-import "../registration/registration.css";
+import "./registration.css";
 
 export default function ThankYouIndo() {
   const location = useLocation();

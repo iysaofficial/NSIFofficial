@@ -1,6 +1,4 @@
-import React from "react";
-import Navigation from "../../components/navigation";
-import Footer from "../../components/footer";
+import { Navigation, Footer } from "../../components";
 import { Helmet } from "react-helmet-async";
 
 function ListLow() {

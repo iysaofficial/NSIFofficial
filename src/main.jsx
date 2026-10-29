@@ -1,78 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
+import router from "./routes";
 
-import Home from "./pages";
-import FAQPage from "./pages/faqpage";
-import ContactPage from "./pages/contactpage";
-import HomeIndo from "./pages/registration/homeindo";
-import IndoOffline from "./pages/registration/indo-offline";
-import IndoOnline from "./pages/registration/indo-online";
-import ThankyouIndo from "./pages/registration/thankyouindo";
-import ListLow from "./pages/low/listlow";
-import List2025 from "./pages/low/2025/list2025";
-import List2026 from "./pages/low/2026/list2026";
-import Newspage from "./pages/news/newspage";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/faq",
-    element: <FAQPage />,
-  },
-  {
-    path: "/contact",
-    element: <ContactPage />,
-  },
-  {
-    path: "/homeindo",
-    element: <HomeIndo />,
-  },
-  {
-    path: "/indo-offline",
-    element: <IndoOffline />,
-  },
-  {
-    path: "/indo-online",
-    element: <IndoOnline />,
-  },
-  {
-    path: "/thankyouindo",
-    element: <ThankyouIndo />,
-  },
-  {
-    path: "/listlow",
-    element: <ListLow />,
-  },
-  {
-    path: "/list2025",
-    element: <List2025 />,
-  },
-  {
-    path: "/list2026",
-    element: <List2026 />,
-  },
-  {
-    path: "/newspage",
-    element: <Newspage />,
-  }
-]);
+// Global Styles & Icon Fonts
+import "./assets/themify-icon/themify-icons.css";
+import "./assets/simple-line-icon/simple-line-icons.css";
+import "./assets/font-awesome/css/all.css";
+import "./assets/elagent/style.css";
+import "./assets/animate.css";
+import "./assets/main.css";
+import "./assets/responsive.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
     <HelmetProvider>
-      {/* ✅ default title & meta */}
       <Helmet>
         <title>NSIF - National Science And Invention Fair</title>
         <meta name="description" content="Website resmi NSIF" />
       </Helmet>
-
       <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>

@@ -1,9 +1,8 @@
-import Navigation from "../../components/navigation";
-import Footer from "../../components/footer";
-import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../data/terms";
 import { useState, useEffect } from "react";
-import "../registration/registration.css";
 import { Helmet } from "react-helmet-async";
+import { Navigation, Footer } from "../../components";
+import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../data/terms";
+import "./registration.css";
 
 function HomeIndo() {
   const [showModal, setShowModal] = useState(false);

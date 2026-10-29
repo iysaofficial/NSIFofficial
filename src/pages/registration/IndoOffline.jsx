@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Navigation from "../../components/navigation";
-import Footer from "../../components/footer";
-import "../registration/registration.css";
 import { Helmet } from "react-helmet-async";
+import { Navigation, Footer } from "../../components";
+import "./registration.css";
 
-function IndonesiaOnline() {
+function IndonesiaOffline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
   const maxNameChars = 180; // batasan maksimal karakter
   const [selectedMaxProject, setselectedMaxProject] = useState("");
@@ -19,7 +18,7 @@ function IndonesiaOnline() {
   const [showModal, setShowModal] = useState(false);
   const [countdown, setCountdown] = useState(5);
   const [canClick, setCanClick] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Gunakan useNavigate
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -48,27 +47,32 @@ function IndonesiaOnline() {
 
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
-      case "National Science and Invention Fair - Online Competition":
-        setCategoryPrice("RP 1.150.000");
+      case "National Science and Invention Fair - Offline Competition":
+        setCategoryPrice("RP 3.150.000");
+        break;
+      case "National Science and Invention Fair - Offline Competition + Excursion":
+        setCategoryPrice("");
         break;
       default:
+        setCategoryPrice("");
         break;
     }
   };
 
   useEffect(() => {
     const termsAccepted = sessionStorage.getItem("termsAccepted");
+
     if (!termsAccepted) {
       alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
       navigate("/homeindo"); // Navigasi ke halaman HomeIndo
     }
   }, [navigate]);
 
-  const scriptURL =
-    "https://script.google.com/macros/s/AKfycbzVnUJhDIOmElx6Y4nx-bwK9lZlbSLcZZRgYXscgGLAFfwy_e_QnNaNXhe0BdOjAzkxhw/exec";
   // const scriptURL =
-  //   "https://script.google.com/macros/s/AKfycbwu8k5YPgS5kqVmQF7JO9gt3GwOnU1udovrJ5d0fk8LQdGsYeDdoK1NHjGQW9KuKuOT/exec";
-
+  //   "https://script.google.com/macros/s/AKfycbzXKPwOSIT1nHf5axnvsOFHpEdSBCW_SspNY1ceklGfiV5AYjGYfYNqRF733BsR314/exec";
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbxeSfX9TX81K5zRNLwjUI-gwFFxw2dee8HJHnUhj3b_CQNYniA7H0JVMn-vgzxhnCv5lQ/exec";
+  
   useEffect(() => {
     const form = document.forms["regist-form"];
 
@@ -97,7 +101,6 @@ function IndonesiaOnline() {
       };
     }
   }, []);
-
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Tutup modal
     const form = document.forms["regist-form"];
@@ -148,17 +151,17 @@ function IndonesiaOnline() {
   return (
     <>
       <Helmet>
-        <title>Indo Online | NSIF</title>
+        <title>Indo Offline | NSIF</title>
         <meta name="description" content="Halaman Registrasi NSIF" />
       </Helmet>
       <Navigation />
       <section className="registration-section">
-        <div className="container">
-          <div className="content">
-            <div className="sub">FORMULIR PENDAFTARAN</div>
+        <div class="container">
+          <div class="content">
+            <div class="sub">FORMULIR PENDAFTARAN</div>
             <br />
             <br />
-            <h4>
+            <h4 className="text-xl">
               HALLO PESERTA NSIF 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
@@ -182,7 +185,6 @@ function IndonesiaOnline() {
               alamat email team leader.
             </p>
             <br />
-
             {showModal && (
               <div className="modal-overlay-submit">
                 <div className="modal-submit text-lg-center text-md-center">
@@ -228,7 +230,7 @@ function IndonesiaOnline() {
                     id="CATEGORY_PARTICIPANT"
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
-                    placeholder="Choose Categories Participant"
+                    placeholder="Pilih Kategori Peserta"
                     value="PESERTA INDONESIA"
                     readOnly
                   />
@@ -247,8 +249,14 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Kategori Kompetisi--</option>
-                    <option value="National Science and Invention Fair - Online Competition">
-                      Kompetisi Daring
+                    <option value="National Science and Invention Fair - Offline Competition">
+                      Kompetisi Luring
+                    </option>
+                    {/* <option value="National Science and Invention Fair - Offline Competition + Full Package">
+                      Kompetisi Luring + Full Package
+                    </option> */}
+                    <option value="National Science and Invention Fair - Offline Competition + Excursion">
+                      Kompetisi Luring + Excursion
                     </option>
                   </select>
                 </div>
@@ -280,7 +288,7 @@ function IndonesiaOnline() {
                     onChange={handleInputNameChange}
                   ></textarea>
                   <p>
-                    {selectedMaxNamaLengkap.length} / {maxNameChars} character
+                    {selectedMaxNamaLengkap.length} / {maxNameChars} karakter
                   </p>
                 </div>
                 <div className="input-box">
@@ -322,7 +330,7 @@ function IndonesiaOnline() {
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
                     class="form-control"
-                    placeholder="Masukan Alamat Email ketua Tim"
+                    placeholder="Masukan Alamat Email Ketua Tim"
                     required
                   />
                 </div>
@@ -536,7 +544,7 @@ function IndonesiaOnline() {
                     onChange={handleInputProjectChange}
                   ></textarea>
                   <p>
-                    {selectedMaxProject.length} / {maxProjectChars} character
+                    {selectedMaxProject.length} / {maxProjectChars} karakter
                   </p>
                 </div>
 
@@ -554,8 +562,8 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Kategori--</option>
                     <option value="Mathematics">Mathematics</option>
-                    <option value="Physic, Energy and Engineering">
-                      Physic, Energy and Engineering
+                    <option value="Physics, Energy and Engineering">
+                      Physics, Energy and Engineering
                     </option>
                     <option value="Life Sciences">Life Sciences</option>
                     <option value="Technology">Technology</option>
@@ -575,7 +583,7 @@ function IndonesiaOnline() {
                     id="YES_NO"
                     name="YES_NO"
                     className="form-control"
-                    placeholder="--Choose Information Resources-- "
+                    placeholder="--Memilih Sumber Daya Informasi--"
                     required
                   >
                     <option>--Pilih--</option>
@@ -657,7 +665,7 @@ function IndonesiaOnline() {
                     id="INFORMATION_RESOURCES"
                     name="INFORMATION_RESOURCES"
                     className="form-control"
-                    placeholder="--Choose Information Resources-- "
+                    placeholder="--Memilih Sumber Daya Informasi--"
                     required
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
@@ -698,7 +706,6 @@ function IndonesiaOnline() {
                 <input type="submit" value="KIRIM" />
               </div>
             </form>
-
             {/* Loader dan Status Message */}
             {isLoading && (
               <div className="overlay-loader">
@@ -718,4 +725,4 @@ function IndonesiaOnline() {
   );
 }
 
-export default IndonesiaOnline;
+export default IndonesiaOffline;

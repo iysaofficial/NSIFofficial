@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import Navigation from "../../../components/navigation";
-import Footer from "../../../components/footer";
+import { useState } from "react";
+import { Navigation, Footer } from "../../../components";
 import { Helmet } from "react-helmet-async";
 
 export default function List2025() {

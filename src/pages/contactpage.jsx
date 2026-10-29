@@ -1,16 +1,13 @@
-import Navigation from "../components/navigation";
-import Footer from "../components/footer";
-
-import CompContact from "../components/compcontact";
+import { Navigation, Footer, ContactSection } from "../components";
 
 function ContactPage() {
-    return (
-        <>
-        <Navigation />
-        <CompContact/>
-        <Footer />
+  return (
+    <>
+      <Navigation />
+      <ContactSection />
+      <Footer />
     </>
-    )
+  );
 }
 
 export default ContactPage;

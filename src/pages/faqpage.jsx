@@ -1,16 +1,13 @@
-import Navigation from "../components/navigation";
-import Footer from "../components/footer";
-
-import CompFAQ from "../components/compfaq";
+import { Navigation, Footer, FAQSection } from "../components";
 
 function FAQPage() {
-    return (
-        <>
-        <Navigation />
-        <CompFAQ/>
-        <Footer />
+  return (
+    <>
+      <Navigation />
+      <FAQSection />
+      <Footer />
     </>
-    )
+  );
 }
 
 export default FAQPage;
