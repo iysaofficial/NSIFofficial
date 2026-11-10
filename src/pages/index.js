@@ -10,3 +10,4 @@ export { default as HomeIndo } from './registration/homeindo';
 export { default as IndoOffline } from './registration/IndoOffline';
 export { default as IndoOnline } from './registration/IndoOnline';
 export { default as ThankYouIndo } from './registration/thankyouindo';
+export { default as KurasiTahun } from './curation/kurasitahun';

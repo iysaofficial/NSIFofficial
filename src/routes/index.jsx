@@ -11,6 +11,7 @@ import {
   List2025,
   List2026,
   NewsPage,
+  KurasiTahun,
 } from "../pages";
 
 export const router = createBrowserRouter([
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
   {
     path: "/newspage",
     element: <NewsPage />,
+  },
+  {
+    path: "/kurasi/:tahun",
+    element: <KurasiTahun />,
   },
 ]);
 

@@ -1,6 +1,7 @@
 import Sticky from "react-stickynode";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import MenuKurasiDasbor from "./MenuKurasiDasbor";
 
 function Navigation() {
   return (
@@ -120,6 +121,8 @@ function Navigation() {
                       Kurasi
                     </Link>
                     <ul role="menu" className=" dropdown-menu">
+                      {/* Edisi yang berkasnya ada di dasbor (2026 dst.) — tahun lama tetap Drive. */}
+                      <MenuKurasiDasbor />
                       <li className="nav-item">
                         <NavLink
                           exact
